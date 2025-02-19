@@ -13,7 +13,7 @@ Recent advancements in large language models (LLMs) have demonstrated that progr
   rather than providing a single answer, results in more accurate and thoughtful outputs. 
   However, existing methods often rely heavily on supervision signals to evaluate previous responses, making it difficult to effectively assess output quality in more open-ended scenarios. Additionally, these methods are typically designed for specific tasks, which limits their generalization to new domains.
   To address these limitations, we propose Progressive Thought Refinement (PTR), a framework that enables LLMs to progressively refine their responses. PTR operates in two phases: 
-  (1) Thought data construction stage: We propose a \textit{weak and strong model collaborative selection} strategy to build a high-quality progressive refinement dataset to ensure logical consistency from thought to answers, and the answers are gradually refined in each round.
+  (1) Thought data construction stage: We propose a weak and strong model collaborative selection strategy to build a high-quality progressive refinement dataset to ensure logical consistency from thought to answers, and the answers are gradually refined in each round.
   (2) Thought-Mask Fine-Tuning Phase: 
         We design a training structure to mask the "thought" and adjust loss weights to encourage LLMs to refine prior thought, teaching them to implicitly understand "how to improve" rather than "what is correct."
         Experimental results show that PTR significantly enhances LLM performance across ten diverse tasks (avg. from 49.6\% to 53.5\%) without task-specific fine-tuning. 
@@ -183,17 +183,17 @@ You can train the model using:
 
 ## Running Evaluations
 
-**This lightweight evaluation framework supports several commonly used benchmarks. It is highly extensible and can accommodate new tasks. The framework employs the **`transformers` and `vllm` libraries for inference.
+This lightweight evaluation framework supports several commonly used benchmarks. It is highly extensible and can accommodate new tasks. The framework employs the `transformers` and `vllm` libraries for inference.
 
 ### Getting Started
 
 
-**Configure the **`run.sh` script:
+**Configure the**`run.sh` script:
 
-* **Model configuration: **`model_path`, `model_type`, `format_type`
-* **Task configuration: **`tasks`, `config_path`, `data_path`
-* **Output configuration: **`output_path`, `save_name`, etc.
-* **Inference configuration: **`rounds`, `seed`, `temperature`, `top_p`, `top_k`, `max_new_tokens`
+* **Model configuration:**`model_path`, `model_type`, `format_type`
+* **Task configuration:**`tasks`, `config_path`, `data_path`
+* **Output configuration:**`output_path`, `save_name`, etc.
+* **Inference configuration:**`rounds`, `seed`, `temperature`, `top_p`, `top_k`, `max_new_tokens`
 
 ### Example: Evaluating Two Models on MMLU and GSM8K
 
@@ -227,7 +227,7 @@ You can train the model using:
 
 ### Configuring Evaluation Tasks
 
-**The default **`config.json` file provides task configurations. An example configuration looks like:
+**The default**`config.json` file provides task configurations. An example configuration looks like:
 
 ```
  {
