@@ -1,0 +1,9 @@
+{
+    "subjects": [
+        "gpqa"
+    ],
+    "gpqa": {
+        "num_fewshots": 0,
+        "limit": null
+    }
+}

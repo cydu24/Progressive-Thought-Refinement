@@ -1,0 +1,46 @@
+{
+    "arc": {
+        "arc_e": {
+            "num_fewshots": 0
+        },
+        "arc_c": {
+            "num_fewshots": 0
+        }
+    },
+    "commonsenseqa": {
+        "num_fewshots": 0
+    },
+    "drop": {
+        "num_fewshots": 0
+    },
+    "gsm8k": {
+        "num_fewshots": 0
+    },
+    "math": {
+        "num_fewshots": 0
+    },
+    "gpqa": {
+        "num_fewshots": 0
+    },
+    "hellaswag": {
+        "num_fewshots": 0
+    },
+    "humaneval": {
+        "limit": null
+    },
+    "icleval": {
+        "limit": null
+    },
+    "mmlu": {
+        "num_fewshots": 0
+    },
+    "rgb": {
+        "limit": null
+    },
+    "winogrande": {
+        "num_fewshots": 0
+    },
+    "xsum":{
+        "num_fewshots": 0
+    }
+}
