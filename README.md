@@ -268,7 +268,8 @@ Llama3-8B
 
 ## Project Members
 
-This project is led by Dr. Jiaqing Liang and Professor Yanghua Xiao from KnowledgeWorks Lab, Fudan University. The core development team includes Master's student Chengyu Du, Ph.D. candidate Jinyi Han, and other contributors. We gratefully acknowledge their dedication to this work.
+This project is led by Dr. Jiaqing Liang and Professor Yanghua Xiao from KnowledgeWorks Lab, Fudan University. The core development team includes Master's student Chengyu Du,
+ Yizhou Ying, Ph.D. candidate Jinyi Han, and other contributors. We gratefully acknowledge their dedication to this work.
 
 
 ## Citation
